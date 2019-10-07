@@ -1,0 +1,74 @@
+/* .Navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(233, 91, 91);
+    
+    height: 60px;
+    
+}
+
+.Navbar-item {
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(0, 217, 255, 0.425);
+    font-size: 1.5em;
+    font-family: 'Mansalva', cursive;
+    text-decoration: none;
+    transition: background-color 200ms;
+    filter: drop-shadow(1px 1px 2px #44ddd5);
+    
+}
+
+.Navbar-active {
+    background-color: rgba(0, 217, 255, 0.699);
+    
+}
+
+.Navbar-item:hover {
+    
+    background-color: rgba(0, 217, 255, 0.829);
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-name: shake;
+    text-decoration: none;
+}
+
+@keyframes shake  {
+    50% {transform: translateY(1px)}
+    100% {transform: translateY(0)}
+} */
+
+.Navbar {
+    filter: drop-shadow(1px 1px 2px #000000);
+}
+.Navbar-item {
+    color: turquoise;
+    font-family: 'Mansalva', cursive;
+    font-size: 1.2em;
+    filter: drop-shadow(1px 1px .1px #000000);
+
+}
+
+.Navbar-item:hover {
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-name: shake;
+    color: rgb(255, 61, 61);
+    
+}
+.toggler-button {
+    color: red;
+    font-size: 1.7em;
+    filter: drop-shadow(1px 1px 1px #000000);
+}
+
+.Navbar-active {
+    color: rgb(255, 61, 61);
+    
+}
+@keyframes shake  {
+    50% {transform: translateY(1px)}
+    100% {transform: translateY(0)}
+}

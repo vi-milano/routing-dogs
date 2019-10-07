@@ -1,0 +1,48 @@
+.Dogs { 
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Dogs-img {
+    margin-top: 100px;
+    height: 300px;
+    filter: drop-shadow(1px 1px 2px #272626);
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-name: shrink;
+     animation-fill-mode: forwards;
+    border-radius: 10px;
+}
+
+.Dogs-img:hover {
+        
+    animation-duration: 200ms;
+    animation-timing-function: ease-out;
+    animation-name: grow;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grow  {
+    from {
+        transform: scale(1) 
+
+    }
+    to {
+        transform: scale(1.1); 
+        filter: drop-shadow(1px 1px 6px #000000);
+
+        
+    }
+}
+
+@keyframes shrink  {
+    from {
+        transform: scale(1.1);
+        
+
+    }
+    to {
+        transform: scale(1);
+    }
+}
